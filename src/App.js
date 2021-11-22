@@ -55,6 +55,23 @@ const App = () => {
     setNewNote(event.target.value);
   };
 
+  const Footer = () => {
+    const footerStyle = {
+      color: "green",
+      fontStyle: "italic",
+      fontSize: 16,
+    };
+    return (
+      <div style={footerStyle}>
+        <br />
+        <em>
+          Note app, following Dept of Computer Science, University of Helsinki
+          tutorial, 2021
+        </em>
+      </div>
+    );
+  };
+
   return (
     <div>
       <h1>Notes</h1>
@@ -77,6 +94,7 @@ const App = () => {
         <input value={newNote} onChange={handleNoteChange} />
         <button type="submit">save</button>
       </form>
+      <Footer />
     </div>
   );
 };
