@@ -33,7 +33,7 @@
     {
       "content": "new note",
       "date": "2021-11-21T23:59:53.008Z",
-      "important": true,
+      "important": false,
       "id": 6
     },
     {
@@ -53,6 +53,12 @@
       "date": "2021-11-22T00:00:30.624Z",
       "important": false,
       "id": 9
+    },
+    {
+      "content": "ff",
+      "date": "2021-11-22T00:34:04.388Z",
+      "important": true,
+      "id": 10
     }
   ]
 }
