@@ -33,7 +33,7 @@
     {
       "content": "an important note",
       "date": "2021-11-22T08:56:50.634Z",
-      "important": false,
+      "important": true,
       "id": 6
     },
     {
